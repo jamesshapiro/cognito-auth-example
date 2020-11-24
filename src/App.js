@@ -1,13 +1,15 @@
 import React, { Component } from "react";
 import "./App.css";
 
-import SignUp from "./SignUp";
+import Header from "./Header";
+import Router from "./Router";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <SignUp />
+        <Header />
+        <Router />
       </div>
     );
   }
